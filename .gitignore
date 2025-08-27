@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+drive-sync-env/
+
+# Local config
+.env
+*.cfg
+*.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+/tmp/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Authentication and secrets
+token.json
+client_secret.json
